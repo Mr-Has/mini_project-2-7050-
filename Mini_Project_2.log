@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  12 JUL 2020 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  13 JUL 2020 20:50
 entering extended mode
 **./Mini_Project_2.tex
 (Mini_Project_2.tex
@@ -46,21 +46,68 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
  [1
 
-{C:/Users/rezam/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] (Mini_Proje
-ct_2.aux) ) 
+{C:/Users/rezam/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--79
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Overfull \hbox (20.55408pt too wide) in paragraph at lines 111--112
+\OT1/cmr/m/n/12 https://nlp.stanford.edu/IR-book/html/htmledition/the-bernoulli
+-model-1.html 
+ []
+
+[5]
+Overfull \hbox (27.8739pt too wide) in paragraph at lines 119--120
+\OT1/cmr/m/n/12 tions. [on-line] Medium. Avail-able at: <https://towardsdatasci
+ence.com/sentiment-
+ []
+
+[6] (Mini_Project_2.aux) ) 
 Here is how much of TeX's memory you used:
  384 strings out of 480790
  6587 string characters out of 2907055
- 242890 words of memory out of 3000000
+ 246890 words of memory out of 3000000
  16476 multiletter control sequences out of 15000+200000
  532943 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,4n,21p,275b,99s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Mini_Project_2.pdf (2 pages, 34438 bytes).
+ 24i,4n,21p,728b,99s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+>
+Output written on Mini_Project_2.pdf (6 pages, 49644 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
