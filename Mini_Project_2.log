@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  16 JUL 2020 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  17 JUL 2020 11:23
 entering extended mode
 **./Mini_Project_2.tex
 (Mini_Project_2.tex
@@ -170,19 +170,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
+
+Overfull \hbox (56.5264pt too wide) in paragraph at lines 147--148
+\OT1/cmr/m/n/12 Fancy Frame-works. [on-line] Medium. Avail-able at: <https://to
+wardsdatascience.com/na 
+ []
+
 [6] (Mini_Project_2.aux) ) 
 Here is how much of TeX's memory you used:
- 402 strings out of 480790
- 6776 string characters out of 2907055
+ 403 strings out of 480790
+ 6785 string characters out of 2907055
  244890 words of memory out of 3000000
- 16487 multiletter control sequences out of 15000+200000
+ 16488 multiletter control sequences out of 15000+200000
  535381 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  24i,8n,21p,764b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
 >
-Output written on Mini_Project_2.pdf (6 pages, 48457 bytes).
+Output written on Mini_Project_2.pdf (6 pages, 48954 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
