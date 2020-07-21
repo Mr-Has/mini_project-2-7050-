@@ -13365,7 +13365,7 @@ memory usage: 937.6+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_train</span><span class="o">=</span><span class="n">training_set</span><span class="p">[</span><span class="s1">&#39;subreddit&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
@@ -13376,7 +13376,7 @@ memory usage: 937.6+ KB
 <span class="n">train_data</span><span class="p">,</span><span class="n">test_data</span><span class="p">,</span><span class="n">train_labels</span><span class="p">,</span><span class="n">test_labels</span><span class="o">=</span><span class="n">train_test_split</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span>
                                                                <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
                                                                <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span>
-                                                               <span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+                                                               <span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">1</span>
                                                                <span class="p">,</span><span class="n">stratify</span><span class="o">=</span><span class="n">y_train</span><span class="p">)</span>
 <span class="n">classes</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">train_labels</span><span class="p">)</span>
 
@@ -13403,7 +13403,7 @@ memory usage: 937.6+ KB
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Test Set Accuracy:  0.4529166666666667
+<pre>Test Set Accuracy:  0.5183333333333333
 </pre>
 </div>
 </div>
@@ -14166,7 +14166,7 @@ Please also refer to the documentation for alternative solver options:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores_lr</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">clf_lr</span><span class="p">,</span> <span class="n">bag_of_words</span><span class="p">,</span> <span class="n">training_set</span><span class="p">[</span><span class="s1">&#39;subreddit&#39;</span><span class="p">],</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
@@ -14233,7 +14233,7 @@ Please also refer to the documentation for alternative solver options:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[24]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -14248,117 +14248,15 @@ Please also refer to the documentation for alternative solver options:
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Naive-Bayes-from-sklearn-(just-for-comparison)-between-models-&amp;-cleaning-functions:">Naive Bayes from sklearn (just for comparison) between models &amp; cleaning functions:<a class="anchor-link" href="#Naive-Bayes-from-sklearn-(just-for-comparison)-between-models-&amp;-cleaning-functions:">&#182;</a></h1>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">bag_of_words</span><span class="p">,</span> <span class="n">training_set</span><span class="p">[</span><span class="s1">&#39;subreddit&#39;</span><span class="p">],</span> 
-                                                    <span class="n">test_size</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> 
-                                                    <span class="n">random_state</span> <span class="o">=</span> <span class="mi">42</span><span class="p">,</span> 
-                                                    <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">BernoulliNB</span>
-
-<span class="n">nb_sklearn</span> <span class="o">=</span> <span class="n">BernoulliNB</span><span class="p">()</span>
-<span class="n">nb_sklearn</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
-<span class="n">predicted</span><span class="o">=</span> <span class="n">nb_sklearn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">accuracy_bnb</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">):</span>
-    <span class="n">accuracy_bnb</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">y_true</span> <span class="o">==</span> <span class="n">y_pred</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">y_true</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">accuracy_bnb</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bernoulli Naive Bayes classification accuracy&quot;</span><span class="p">,</span> <span class="n">accuracy_bnb</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">predicted</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Bernoulli Naive Bayes classification accuracy 0.41458333333333336
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Burnoulli-Naive-Bayes-cross-validation">Burnoulli Naive Bayes cross validation<a class="anchor-link" href="#Burnoulli-Naive-Bayes-cross-validation">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores_lr</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">nb_sklearn</span><span class="p">,</span> <span class="n">bag_of_words</span><span class="p">,</span> <span class="n">training_set</span><span class="p">[</span><span class="s1">&#39;subreddit&#39;</span><span class="p">],</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="n">scores_lr</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[28]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([0.41758333, 0.3995    , 0.41175   , 0.41258333, 0.41266667])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 

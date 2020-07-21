@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  21 JUL 2020 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  21 JUL 2020 12:30
 entering extended mode
-**./Mini_Project_2.tex
-(Mini_Project_2.tex
+**"./Mini project 2.tex"
+("Mini project 2.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18>
 ("C:\Program Files\MiKTeX\tex/latex/base\report.cls"
@@ -27,8 +27,8 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box45
 )
-(Mini_Project_2.aux)
-\openout1 = `Mini_Project_2.aux'.
+("Mini project 2.aux")
+\openout1 = `"Mini project 2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -98,12 +98,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[5]
+
 Overfull \hbox (79.4257pt too wide) in paragraph at lines 152--153
 \OT1/cmr/m/n/12 for-ma-tion Re-trieval. Cam-bridge Uni-ver-sity Press, pp. 234-
 265. https://nlp.stanford.edu/IR-
@@ -161,19 +161,19 @@ Overfull \hbox (56.5264pt too wide) in paragraph at lines 168--169
 wardsdatascience.com/na 
  []
 
-[7] (Mini_Project_2.aux) ) 
+[7] ("Mini project 2.aux") ) 
 Here is how much of TeX's memory you used:
  403 strings out of 480790
- 6785 string characters out of 2907055
+ 6843 string characters out of 2907055
  243890 words of memory out of 3000000
  16488 multiletter control sequences out of 15000+200000
  535381 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,8n,21p,769b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
->
-Output written on Mini_Project_2.pdf (7 pages, 52289 bytes).
+ 24i,8n,21p,771b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb>
+Output written on "Mini project 2.pdf" (7 pages, 52283 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
