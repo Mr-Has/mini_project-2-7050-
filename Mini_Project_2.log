@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  17 JUL 2020 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.11)  21 JUL 2020 06:24
 entering extended mode
 **./Mini_Project_2.tex
 (Mini_Project_2.tex
@@ -45,152 +45,137 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
 
  []
 
 [1
 
 {C:/Users/rezam/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 59--68
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--77
+Underfull \hbox (badness 10000) in paragraph at lines 62--71
 
  []
 
 [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 82.
+(Font)              <12> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 82.
+(Font)              <8> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 82.
+(Font)              <6> on input line 90.
 
-Underfull \hbox (badness 2285) in paragraph at lines 88--88
-[]\OT1/cmr/m/n/12 Bernoulli Naive
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\OT1/cmr/m/n/12 Bayes (from
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/cmr/m/n/12 Bayes (from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 
-Overfull \hbox (20.55408pt too wide) in paragraph at lines 131--132
-\OT1/cmr/m/n/12 https://nlp.stanford.edu/IR-book/html/htmledition/the-bernoulli
--model-1.html 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
+[5]
+Overfull \hbox (79.4257pt too wide) in paragraph at lines 152--153
+\OT1/cmr/m/n/12 for-ma-tion Re-trieval. Cam-bridge Uni-ver-sity Press, pp. 234-
+265. https://nlp.stanford.edu/IR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Overfull \hbox (27.8739pt too wide) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Overfull \hbox (27.8739pt too wide) in paragraph at lines 160--161
 \OT1/cmr/m/n/12 tions. [on-line] Medium. Avail-able at: <https://towardsdatasci
 ence.com/sentiment-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Overfull \hbox (56.5264pt too wide) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+[6]
+Overfull \hbox (56.5264pt too wide) in paragraph at lines 168--169
 \OT1/cmr/m/n/12 Fancy Frame-works. [on-line] Medium. Avail-able at: <https://to
 wardsdatascience.com/na 
  []
 
-[6] (Mini_Project_2.aux) ) 
+[7] (Mini_Project_2.aux) ) 
 Here is how much of TeX's memory you used:
  403 strings out of 480790
  6785 string characters out of 2907055
- 244890 words of memory out of 3000000
+ 243890 words of memory out of 3000000
  16488 multiletter control sequences out of 15000+200000
  535381 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,8n,21p,764b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,8n,21p,769b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
 >
-Output written on Mini_Project_2.pdf (6 pages, 48954 bytes).
+Output written on Mini_Project_2.pdf (7 pages, 52287 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
